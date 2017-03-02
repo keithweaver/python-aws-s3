@@ -6,13 +6,51 @@ Open [AWS Console](https://aws.amazon.com/console/) and log in.
 
 Click the `Services` dropdown and select the `S3` service.
 
-Click `Create Bucket`
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/2.png?token=AGNQQB4Q7sizjmFqsAVZq3V_sN8TMRFLks5YwerPwA%3D%3D "Logo Title Text 1")
 
-Give it a name, region then hit next through each step.
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/3.png?token=AGNQQB4Q7sizjmFqsAVZq3V_sN8TMRFLks5YwerPwA%3D%3D "Logo Title Text 1")
+
+Click `Create Bucket`. Give it a name, region then hit next through each step.
+
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/4.png?token=AGNQQB4Q7sizjmFqsAVZq3V_sN8TMRFLks5YwerPwA%3D%3D "Logo Title Text 1")
+
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/5.png?token=AGNQQB4Q7sizjmFqsAVZq3V_sN8TMRFLks5YwerPwA%3D%3D "Logo Title Text 1")
+
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/6.png?token=AGNQQB4Q7sizjmFqsAVZq3V_sN8TMRFLks5YwerPwA%3D%3D "Logo Title Text 1")
+
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/7.png?token=AGNQQB4Q7sizjmFqsAVZq3V_sN8TMRFLks5YwerPwA%3D%3D "Logo Title Text 1")
+
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/8.png?token=AGNQQB4Q7sizjmFqsAVZq3V_sN8TMRFLks5YwerPwA%3D%3D "Logo Title Text 1")
 
 Now click your new bucket
 
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/9.png?token=AGNQQB4Q7sizjmFqsAVZq3V_sN8TMRFLks5YwerPwA%3D%3D "Logo Title Text 1")
+
 Upload a test image to your bucket
+
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/10.png?token=AGNQQB4Q7sizjmFqsAVZq3V_sN8TMRFLks5YwerPwA%3D%3D "Logo Title Text 1")
+
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/11.png?token=AGNQQB4Q7sizjmFqsAVZq3V_sN8TMRFLks5YwerPwA%3D%3D "Logo Title Text 1")
+
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/12.png?token=AGNQQB4Q7sizjmFqsAVZq3V_sN8TMRFLks5YwerPwA%3D%3D "Logo Title Text 1")
+
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/13.png?token=AGNQQB4Q7sizjmFqsAVZq3V_sN8TMRFLks5YwerPwA%3D%3D "Logo Title Text 1")
+
+You can find your new file. If you click it, you should see a link. Open the link in a new tab.
+
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/14.png?token=AGNQQB4Q7sizjmFqsAVZq3V_sN8TMRFLks5YwerPwA%3D%3D "Logo Title Text 1")
+
+As you can see, you'll get "Access Denied".
+
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/15.png?token=AGNQQB4Q7sizjmFqsAVZq3V_sN8TMRFLks5YwerPwA%3D%3D "Logo Title Text 1")
+
+Click the file, and under "more" press make public. Refresh the link.
+
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/16.png?token=AGNQQB4Q7sizjmFqsAVZq3V_sN8TMRFLks5YwerPwA%3D%3D "Logo Title Text 1")
+
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/17.png?token=AGNQQB4Q7sizjmFqsAVZq3V_sN8TMRFLks5YwerPwA%3D%3D "Logo Title Text 1")
+
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/18.png?token=AGNQQB4Q7sizjmFqsAVZq3V_sN8TMRFLks5YwerPwA%3D%3D "Logo Title Text 1")
 
 ```
 

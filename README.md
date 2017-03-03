@@ -52,12 +52,64 @@ Click the file, and under "more" press make public. Refresh the link.
 
 ![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/18.png?token=AGNQQDZfL40P0kDRLMraNNS1gNjT15ARks5Ywe27wA%3D%3D "Logo Title Text 1")
 
-```
+
+Now click `Services` then go to `IAM` dashboard.
+
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/19.png?token=AGNQQDZfL40P0kDRLMraNNS1gNjT15ARks5Ywe27wA%3D%3D "Logo Title Text 1")
 
 
-arn:aws:iam::281979644754:user/sample-user
-```
+You should see your `IAM` dashboard. On the left menu, you can click `Users`.
 
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/20.png?token=AGNQQDZfL40P0kDRLMraNNS1gNjT15ARks5Ywe27wA%3D%3D "Logo Title Text 1")
+
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/21.png?token=AGNQQDZfL40P0kDRLMraNNS1gNjT15ARks5Ywe27wA%3D%3D "Logo Title Text 1")
+
+
+Click the `Add User`.
+
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/22.png?token=AGNQQDZfL40P0kDRLMraNNS1gNjT15ARks5Ywe27wA%3D%3D "Logo Title Text 1")
+
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/23.png?token=AGNQQDZfL40P0kDRLMraNNS1gNjT15ARks5Ywe27wA%3D%3D "Logo Title Text 1")
+
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/24.png?token=AGNQQDZfL40P0kDRLMraNNS1gNjT15ARks5Ywe27wA%3D%3D "Logo Title Text 1")
+
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/25.png?token=AGNQQDZfL40P0kDRLMraNNS1gNjT15ARks5Ywe27wA%3D%3D "Logo Title Text 1")
+
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/26.png?token=AGNQQDZfL40P0kDRLMraNNS1gNjT15ARks5Ywe27wA%3D%3D "Logo Title Text 1")
+
+
+Now click your new user from the list of users.
+
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/27.png?token=AGNQQDZfL40P0kDRLMraNNS1gNjT15ARks5Ywe27wA%3D%3D "Logo Title Text 1")
+
+
+Copy the User ARN
+
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/28.png?token=AGNQQDZfL40P0kDRLMraNNS1gNjT15ARks5Ywe27wA%3D%3D "Logo Title Text 1")
+
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/22.png?token=AGNQQDZfL40P0kDRLMraNNS1gNjT15ARks5Ywe27wA%3D%3D "Logo Title Text 1")
+
+
+Reopen the S3 dashboard
+
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/29.png?token=AGNQQDZfL40P0kDRLMraNNS1gNjT15ARks5Ywe27wA%3D%3D "Logo Title Text 1")
+
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/30.png?token=AGNQQDZfL40P0kDRLMraNNS1gNjT15ARks5Ywe27wA%3D%3D "Logo Title Text 1")
+
+
+Now click the permissions tab.
+
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/31.png?token=AGNQQDZfL40P0kDRLMraNNS1gNjT15ARks5Ywe27wA%3D%3D "Logo Title Text 1")
+
+
+Then click Bucket Policy.
+
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/32.png?token=AGNQQDZfL40P0kDRLMraNNS1gNjT15ARks5Ywe27wA%3D%3D "Logo Title Text 1")
+
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/33.png?token=AGNQQDZfL40P0kDRLMraNNS1gNjT15ARks5Ywe27wA%3D%3D "Logo Title Text 1")
+
+
+Set your Bucket Policy to be the same as below. Change `arn:aws:iam::281979644754:user/sample-user` to be your User ARN. Also change `arn:aws:s3:::img-bucket-00123` to your Bucket ARN. The bucket ARN is above the textarea.
 ```
 {
     "Version": "2012-10-17",
@@ -82,6 +134,40 @@ arn:aws:iam::281979644754:user/sample-user
 }
 ```
 
+Click CORS configuration and add the following policy:
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<CORSConfiguration xmlns="http://s3.amazonaws.com/doc/2006-03-01/">
+  <CORSRule>
+    <AllowedOrigin>*</AllowedOrigin>
+    <AllowedMethod>GET</AllowedMethod>
+    <AllowedMethod>POST</AllowedMethod>
+    <AllowedMethod>PUT</AllowedMethod>
+    <MaxAgeSeconds>3000</MaxAgeSeconds>
+    <AllowedHeader>Authorization</AllowedHeader>
+  </CORSRule>
+</CORSConfiguration>
+```
+
+
+Reopen the `IAM` dashboard.
+
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/34.png?token=AGNQQDZfL40P0kDRLMraNNS1gNjT15ARks5Ywe27wA%3D%3D "Logo Title Text 1")
+
+
+Open your new user.
+
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/35.png?token=AGNQQDZfL40P0kDRLMraNNS1gNjT15ARks5Ywe27wA%3D%3D "Logo Title Text 1")
+
+
+Click on the `New inline policy`
+
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/36.png?token=AGNQQDZfL40P0kDRLMraNNS1gNjT15ARks5Ywe27wA%3D%3D "Logo Title Text 1")
+
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/37.png?token=AGNQQDZfL40P0kDRLMraNNS1gNjT15ARks5Ywe27wA%3D%3D "Logo Title Text 1")
+
+
+Update the policy to be as follows:
 ```
 {
     "Version": "2012-10-17",
@@ -101,27 +187,25 @@ arn:aws:iam::281979644754:user/sample-user
 }
 ```
 
+
+Now open [Amazon CLI](https://aws.amazon.com/cli/) or just download it on a Mac with:
 ```
-<?xml version="1.0" encoding="UTF-8"?>
-<CORSConfiguration xmlns="http://s3.amazonaws.com/doc/2006-03-01/">
-  <CORSRule>
-    <AllowedOrigin>*</AllowedOrigin>
-    <AllowedMethod>GET</AllowedMethod>
-    <AllowedMethod>POST</AllowedMethod>
-    <AllowedMethod>PUT</AllowedMethod>
-    <MaxAgeSeconds>3000</MaxAgeSeconds>
-    <AllowedHeader>Authorization</AllowedHeader>
-  </CORSRule>
-</CORSConfiguration>
+pip install awscli
 ```
 
-https://aws.amazon.com/cli/
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/35.png?token=AGNQQDZfL40P0kDRLMraNNS1gNjT15ARks5Ywe27wA%3D%3D "Logo Title Text 1")
+
 
 ```
-pip
-aws configure
+git clone https://github.com/keithweaver/python-aws-s3.git
+cd python-aws-s3
+python example.py
 ```
 
-It access for access id and secret key.
-Then region
-then default output
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/40.png?token=AGNQQDZfL40P0kDRLMraNNS1gNjT15ARks5Ywe27wA%3D%3D "Logo Title Text 1")
+
+```
+python example-w-folder-create.py
+```
+
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/41.png?token=AGNQQDZfL40P0kDRLMraNNS1gNjT15ARks5Ywe27wA%3D%3D "Logo Title Text 1")

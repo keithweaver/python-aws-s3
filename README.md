@@ -1,5 +1,11 @@
 # python-aws-s3
 
+## About
+
+This is a demo of setting up an Amazon Web Service (AWS) S3 bucket and uploading a file with Python.
+
+## Setting Up Bucket
+
 Open [AWS Console](https://aws.amazon.com/console/) and log in.
 
 ![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/1.png?token=AGNQQB4Q7sizjmFqsAVZq3V_sN8TMRFLks5YwerPwA%3D%3D "Logo Title Text 1")

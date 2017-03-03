@@ -55,58 +55,56 @@ Click the file, and under "more" press make public. Refresh the link.
 
 Now click `Services` then go to `IAM` dashboard.
 
-![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/19.png?token=AGNQQDZfL40P0kDRLMraNNS1gNjT15ARks5Ywe27wA%3D%3D "Logo Title Text 1")
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/19.png?token=AGNQQMLc53mftbit-GS4dB848a1P0wxxks5Ywg5PwA%3D%3D "Logo Title Text 1")
 
 
 You should see your `IAM` dashboard. On the left menu, you can click `Users`.
 
-![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/20.png?token=AGNQQDZfL40P0kDRLMraNNS1gNjT15ARks5Ywe27wA%3D%3D "Logo Title Text 1")
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/20.png?token=AGNQQFZWACEcI0OCPGlI8VFfKYojrNOdks5Ywg5cwA%3D%3D "Logo Title Text 1")
 
-![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/21.png?token=AGNQQDZfL40P0kDRLMraNNS1gNjT15ARks5Ywe27wA%3D%3D "Logo Title Text 1")
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/21.png?token=AGNQQHJ8cTd2pp9gjLJFo-9YP9M26CjJks5Ywg5pwA%3D%3D "Logo Title Text 1")
 
 
 Click the `Add User`.
 
-![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/22.png?token=AGNQQDZfL40P0kDRLMraNNS1gNjT15ARks5Ywe27wA%3D%3D "Logo Title Text 1")
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/22.png?token=AGNQQHb97i8061Z8yyk7wgNoBzKEdjWCks5Ywg54wA%3D%3D "Logo Title Text 1")
 
-![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/23.png?token=AGNQQDZfL40P0kDRLMraNNS1gNjT15ARks5Ywe27wA%3D%3D "Logo Title Text 1")
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/23.png?token=AGNQQGmUhdp8lvITugT3O6QuF95bDecxks5Ywg6GwA%3D%3D "Logo Title Text 1")
 
-![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/24.png?token=AGNQQDZfL40P0kDRLMraNNS1gNjT15ARks5Ywe27wA%3D%3D "Logo Title Text 1")
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/24.png?token=AGNQQEfgNzexuJsc6SrmSQ3Op6Z2hjpeks5Ywg6YwA%3D%3D "Logo Title Text 1")
 
-![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/25.png?token=AGNQQDZfL40P0kDRLMraNNS1gNjT15ARks5Ywe27wA%3D%3D "Logo Title Text 1")
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/25.png?token=AGNQQBJMq9cmkWyerv0lKoiK7FLyQrVMks5Ywg6swA%3D%3D "Logo Title Text 1")
 
-![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/26.png?token=AGNQQDZfL40P0kDRLMraNNS1gNjT15ARks5Ywe27wA%3D%3D "Logo Title Text 1")
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/26.png?token=AGNQQK_yGtNWgoPTm-PVRMaUY4SPN80bks5Ywg7EwA%3D%3D "Logo Title Text 1")
 
 
 Now click your new user from the list of users.
 
-![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/27.png?token=AGNQQDZfL40P0kDRLMraNNS1gNjT15ARks5Ywe27wA%3D%3D "Logo Title Text 1")
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/27.png?token=AGNQQP44HDGnKbF_qF55ERkBp2qZ9w6-ks5Ywg7UwA%3D%3D "Logo Title Text 1")
 
 
 Copy the User ARN
 
-![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/28.png?token=AGNQQDZfL40P0kDRLMraNNS1gNjT15ARks5Ywe27wA%3D%3D "Logo Title Text 1")
-
-![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/22.png?token=AGNQQDZfL40P0kDRLMraNNS1gNjT15ARks5Ywe27wA%3D%3D "Logo Title Text 1")
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/28.png?token=AGNQQOphRJzEZzkfFy8zNwowoQmk3SXOks5Ywg7hwA%3D%3D "Logo Title Text 1")
 
 
 Reopen the S3 dashboard
 
-![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/29.png?token=AGNQQDZfL40P0kDRLMraNNS1gNjT15ARks5Ywe27wA%3D%3D "Logo Title Text 1")
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/29.png?token=AGNQQFxnq6FxO5TyZuI7stDN4sicpf4lks5Ywg7swA%3D%3D "Logo Title Text 1")
 
-![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/30.png?token=AGNQQDZfL40P0kDRLMraNNS1gNjT15ARks5Ywe27wA%3D%3D "Logo Title Text 1")
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/30.png?token=AGNQQMNL9wrpk7q59xyNIsYGEh3QdTwyks5Ywg8KwA%3D%3D "Logo Title Text 1")
 
 
 Now click the permissions tab.
 
-![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/31.png?token=AGNQQDZfL40P0kDRLMraNNS1gNjT15ARks5Ywe27wA%3D%3D "Logo Title Text 1")
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/31.png?token=AGNQQPPvYEoQ5UYrW1gC66w_fPVrTZjEks5Ywg8UwA%3D%3D "Logo Title Text 1")
 
 
 Then click Bucket Policy.
 
-![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/32.png?token=AGNQQDZfL40P0kDRLMraNNS1gNjT15ARks5Ywe27wA%3D%3D "Logo Title Text 1")
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/32.png?token=AGNQQNpX1_U-waAnhxbVZlxZW4PZk8liks5Ywg8iwA%3D%3D "Logo Title Text 1")
 
-![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/33.png?token=AGNQQDZfL40P0kDRLMraNNS1gNjT15ARks5Ywe27wA%3D%3D "Logo Title Text 1")
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/33.png?token=AGNQQMXZnAR1uU1IG-2_HztGgvg8xId7ks5Ywg87wA%3D%3D "Logo Title Text 1")
 
 
 Set your Bucket Policy to be the same as below. Change `arn:aws:iam::281979644754:user/sample-user` to be your User ARN. Also change `arn:aws:s3:::img-bucket-00123` to your Bucket ARN. The bucket ARN is above the textarea.
@@ -152,19 +150,19 @@ Click CORS configuration and add the following policy:
 
 Reopen the `IAM` dashboard.
 
-![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/34.png?token=AGNQQDZfL40P0kDRLMraNNS1gNjT15ARks5Ywe27wA%3D%3D "Logo Title Text 1")
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/34.png?token=AGNQQHJ_DYvOXj-GDK0M6tOSzChGt18rks5Ywg9NwA%3D%3D "Logo Title Text 1")
 
 
 Open your new user.
 
-![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/35.png?token=AGNQQDZfL40P0kDRLMraNNS1gNjT15ARks5Ywe27wA%3D%3D "Logo Title Text 1")
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/35.png?token=AGNQQLB9HYxUyOs324GT_gIT72Kp-aLUks5Ywg9lwA%3D%3D "Logo Title Text 1")
 
 
 Click on the `New inline policy`
 
-![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/36.png?token=AGNQQDZfL40P0kDRLMraNNS1gNjT15ARks5Ywe27wA%3D%3D "Logo Title Text 1")
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/36.png?token=AGNQQMBE1OAZSRrf6GA2X-lYyNKAMh_hks5Ywg9xwA%3D%3D "Logo Title Text 1")
 
-![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/37.png?token=AGNQQDZfL40P0kDRLMraNNS1gNjT15ARks5Ywe27wA%3D%3D "Logo Title Text 1")
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/37.png?token=AGNQQGWZA9403bBqVmocrO2D2Ht3cgATks5Ywg-FwA%3D%3D "Logo Title Text 1")
 
 
 Update the policy to be as follows:
@@ -193,7 +191,10 @@ Now open [Amazon CLI](https://aws.amazon.com/cli/) or just download it on a Mac 
 pip install awscli
 ```
 
-![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/35.png?token=AGNQQDZfL40P0kDRLMraNNS1gNjT15ARks5Ywe27wA%3D%3D "Logo Title Text 1")
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/38.png?token=AGNQQK9UfNSje_sTK6K786z1Vhsvc-Naks5Ywg-PwA%3D%3D "Logo Title Text 1")
+
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/39.png?token=AGNQQEwEhWl8wY1z_7TluSoG44xelKsoks5Ywg-ZwA%3D%3D "Logo Title Text 1")
+
 
 
 ```
@@ -202,10 +203,10 @@ cd python-aws-s3
 python example.py
 ```
 
-![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/40.png?token=AGNQQDZfL40P0kDRLMraNNS1gNjT15ARks5Ywe27wA%3D%3D "Logo Title Text 1")
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/40.png?token=AGNQQLDaMw4p1lrb003wBahAe_bRngFqks5Ywg-5wA%3D%3D "Logo Title Text 1")
 
 ```
 python example-w-folder-create.py
 ```
 
-![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/41.png?token=AGNQQDZfL40P0kDRLMraNNS1gNjT15ARks5Ywe27wA%3D%3D "Logo Title Text 1")
+![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/41.png?token=AGNQQOElPIcg_RfAje3l2ZJSFjqA4Umrks5Ywg_BwA%3D%3D "Logo Title Text 1")

@@ -5,7 +5,7 @@ ACCESS_KEY_ID = ''
 ACCESS_SECRET_KEY = ''
 BUCKET_NAME = 'img-bucket-00123'
 
-data = open('test.png', 'rb')
+data = open('bitmoji.png', 'rb')
 
 s3 = boto3.resource(
     's3',
@@ -13,6 +13,6 @@ s3 = boto3.resource(
     aws_secret_access_key=ACCESS_SECRET_KEY,
     config=Config(signature_version='s3v4')
 )
-s3.Bucket(BUCKET_NAME).put_object(Key='folderName/test.png', Body=data)
+s3.Bucket(BUCKET_NAME).put_object(Key='folderName/bitmoji.png', Body=data)
 
 print ("Done")

@@ -192,17 +192,6 @@ Update the policy to be as follows:
 ```
 
 
-Now open [Amazon CLI](https://aws.amazon.com/cli/) or just download it on a Mac with:
-```
-pip install awscli
-```
-
-![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/38.png?token=AGNQQK9UfNSje_sTK6K786z1Vhsvc-Naks5Ywg-PwA%3D%3D "Logo Title Text 1")
-
-![alt text](https://raw.githubusercontent.com/keithweaver/python-aws-s3/master/images-for-setup/39.png?token=AGNQQEwEhWl8wY1z_7TluSoG44xelKsoks5Ywg-ZwA%3D%3D "Logo Title Text 1")
-
-
-
 ```
 git clone https://github.com/keithweaver/python-aws-s3.git
 cd python-aws-s3
